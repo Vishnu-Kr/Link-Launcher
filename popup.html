@@ -58,8 +58,34 @@
             margin-right: 12px;
         }
 
-        .version{}
+        .version{
+            color: #444;
+            font-size: 18px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+        }
+        .flex:hover {
+        opacity: 0.4;
+        }
+
+        .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+        }
+    
     </style>
+
+    <script src="popup.js"></script>
 
 </head>
 <body>
@@ -74,20 +100,24 @@
     <div class="modal-icons">
         <div class="flex-container">
             <div class="flex">
-                <a href="https://vishnu-kr.github.io/" target="_blank"></a>
-                <i class="fa fa-globe"></i>
+                <a href="https://vishnu-kr.github.io/" target="_blank">
+                <img src="images/vk_logo.jpg" alt=""></i>
+                </a>
             </div>
             <div class="flex">
-                <a href="https://www.youtube.com/" target="_blank"></a>
-                <i class="fa fa-youtube"></i>
+                <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtube_logo.png" alt="">
+                </a>
             </div>
             <div class="flex">
-                <a href="https://github.com/Vishnu-Kr" target="_blank"></a>
-                <i class="fa fa-github"></i>
+                <a href="https://github.com/Vishnu-Kr" target="_blank">
+                <img src="images/github_logo.png" alt="">
+                </a>
             </div>
             <div class="flex">
-                <a href="https://www.linkedin.com/in/vishnu-kumar-227a03220/" target="_blank"></a>
-                <i class="fa fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/vishnu-kumar-227a03220/" target="_blank">
+                <img src="images/linkedin_logo.png" alt="">
+                </a>
             </div>
         </div>
     </div>
